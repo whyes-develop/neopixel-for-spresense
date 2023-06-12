@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 whyes-develop
+# SPDX-License-Identifier: MIT
+
 -include $(APPDIR)/Make.defs
 -include $(SDKDIR)/Make.defs
 
