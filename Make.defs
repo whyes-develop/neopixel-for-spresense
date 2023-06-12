@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 whyes-develop
+# SPDX-License-Identifier: MIT
+
 ifeq ($(CONFIG_EXTERNALS_NEOPIXEL),y)
 CONFIGURED_APPS += neopixel-for-spresense
 endif
