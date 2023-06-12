@@ -1,0 +1,3 @@
+ifeq ($(CONFIG_EXTERNALS_NEOPIXEL),y)
+CONFIGURED_APPS += neopixel-for-spresense
+endif
