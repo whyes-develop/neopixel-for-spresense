@@ -71,18 +71,18 @@ void wait_cycles(uint32_t n) // 4 clocks per cycle
 
 void zero(neopixel_client_t *client)
 {
-    bit_write(client, HIGH);
-    wait_cycles(n_wait_cycles_t0h_t1l);
-    bit_write(client, LOW);
-    wait_cycles(n_wait_cycles_t1h_t0l);
+  bit_write(client, HIGH);
+  wait_cycles(n_wait_cycles_t0h_t1l);
+  bit_write(client, LOW);
+  wait_cycles(n_wait_cycles_t1h_t0l);
 }
 
 void one(neopixel_client_t *client)
 {
-    bit_write(client, HIGH);
-    wait_cycles(n_wait_cycles_t1h_t0l);
-    bit_write(client, LOW);
-    wait_cycles(n_wait_cycles_t0h_t1l);
+  bit_write(client, HIGH);
+  wait_cycles(n_wait_cycles_t1h_t0l);
+  bit_write(client, LOW);
+  wait_cycles(n_wait_cycles_t0h_t1l);
 }
 
 /***************************************************************************/
