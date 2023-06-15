@@ -21,3 +21,8 @@ To implement this library, the following libraries were extremely reference.
 Here we express our utmost gratitude.
 - [hideakitai/SpresenseNeoPixel](https://github.com/hideakitai/SpresenseNeoPixel) (MIT license, Copyright (c) 2019 Hideaki Tai)
 - [KotaMeiwa/nepils](https://github.com/hKotaMeiwa/nepils) (MIT license, Copyright (c) 2023 Kota Meiwa)
+
+Some implementations of these libraries are referenced either explicitly or implicitly in the APIs below.
+- neopixel_inizialize()
+- neopixel_set()
+- neopixel_show()
