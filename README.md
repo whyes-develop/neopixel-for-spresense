@@ -11,6 +11,10 @@ Adafruit NeoPixel library for SPRESENSE SDK
 4. Include `neopixel.h` in any application.
 ## API
 See [neopixel.h](/neopixel_extlib/neopixel.h).
+
+## Samples
+See [neopixel-for-spresense-samples](https://github.com/whyes-develop/neopixel-for-spresense-samples)
+
 ## License
 MIT license (See [LICENSE](/LICENSE) for details.)
 
